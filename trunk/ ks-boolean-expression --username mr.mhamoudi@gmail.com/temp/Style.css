@@ -1,0 +1,81 @@
+body
+{
+	min-width:500px;
+	height: 100%;
+	font-size: 13px;
+	color:#F00;
+	background-color: #b8b88b;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.Title {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-transform: capitalize;
+	color:#fff;
+	cursor: crosshair;
+	text-align:center;
+	background-color:#9d2e32;
+	border: medium solid #9d2e32;
+}
+.subTitle {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	color:#9d2e32;
+	text-decoration:underline;
+
+}
+
+.subsubTitle {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color:#9d2e32;
+	text-align : left;
+}
+.subsubTitle2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color:#9d2e32;
+	text-align : left;
+}
+
+
+table, td
+{
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+
+th
+{
+	width: 25;
+	height:25;
+	background-color:#999999;
+	text-decoration:!important;
+	
+}
+
+tr {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #000;
+	text-align: center;
+
+}
+
+#cent {
+left: 50%;
+margin-left: 200px;
+margin-right: 200px;
+top: 400px;
+
+}
+.ones{
+	color:#000;
+	font-style: normal;
+	background-color:#d96567;
+}
+
+

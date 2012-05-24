@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="KSBooleanExpression" basedir="." default="KSBooleanExpressionJar">
+<target name="compile">
+     <mkdir dir="bin" />
+     <javac includeantruntime="false" srcdir="src" destdir="bin" debug="on" source="1.5" target="1.5" classpath="lib/core-renderer.jar:lib/iText-2.0.8.jar:lib/jlatexmath-0.9.7.jar">
+    </javac>
+  </target>
+  
+ <target name="KSBooleanExpressionJar" depends="compile">
+ <mkdir dir="build"/>
+ <mkdir dir="build/translations"/>
+ <mkdir dir="build/resources"/>
+ <mkdir dir="build/temp"/>
+ <mkdir dir="build/lib"/>
+ <mkdir dir="build/welcome"/>
+ <mkdir dir="build/help"/>
+ <jar jarfile="build/KS Boolean Expression.jar" basedir="bin" manifest="MANIFEST.MF" />
+ <copy todir="build/translations">
+	 <fileset dir="translations"/>
+ </copy>
+ <copy todir="build/resources">
+	 <fileset dir="resources"/>
+ </copy>
+ <copy todir="build/temp">
+	 <fileset dir="temp"/>
+ </copy>
+ <copy todir="build/lib">
+	 <fileset dir="lib"/>
+ </copy>
+ <copy todir="build/welcome">
+	 <fileset dir="welcome"/>
+ </copy>
+ <copy todir="build/help">
+	 <fileset dir="help"/>
+ </copy>
+ <copy file="license.txt" todir="build" />
+ <copy file="README.txt" todir="build" />
+ <copy file="THIRDPARTY-LICENSE-FLYING-SAUCER-R8.TXT" todir="build" /> 
+ <copy file="THIRDPARTY-LICENSE-ITEXT.TXT" todir="build" /> 
+ <copy file="THIRDPARTY-LICENSE-JLATEXMATH.TXT" todir="build" /> 
+ <copy file="programIcon.ico" todir="build" /> 
+ <delete dir="bin"/>
+  </target> 
+  </project>

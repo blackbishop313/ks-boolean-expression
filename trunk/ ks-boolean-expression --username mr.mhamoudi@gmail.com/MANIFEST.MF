@@ -1,0 +1,2 @@
+Main-Class: com.ksbooleanexpression.Main
+Class-Path: . lib/core-renderer.jar lib/iText-2.0.8.jar lib/jlatexmath-0.9.7.jar

@@ -1,0 +1,15 @@
+In this file, we show you how to build KS Boolean Expression.
+
+Requirements:
+-------------
+1. JDK 1.5 or later.
+2. Ant
+3. Launch4j (to create .exe file).
+4. InnoSetup (to create installer for windows).
+
+Instructions:
+-------------
+. Open the console and go to the project directory
+. Tape ant KSBooleanExpressionJar.
+. To create the .exe file, compile the buildexe.xml file with launch4j.
+. To create the installer, compile buildSetup.iss with InnoSetup compiler (you need to create the .exe file first).
