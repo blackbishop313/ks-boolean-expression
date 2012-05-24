@@ -1,0 +1,32 @@
+#colpage {}
+#left {position:fixed; overflow:auto; left:0px; width:250px; bottom:0px; top:0px; background-color:#868686; border-color:#808080; border-top-width:0; border-right-width:1px; border-bottom-width:0; border-left-width:0; border-style:solid}
+#page {margin-left:0px; border-style:none}
+#header-top {margin:2em 2% 0 2%; margin-left:260px}
+#contenair {background-color:#999; margin:0 2% 1em 2%; margin-left:260px}
+.footer-titre {display:none}
+#left .footer-titre {display:block; font-size:18pt; text-align:center; background-color:#808080; margin-left:0; margin-top:0; padding-top:5px; padding-bottom:5px}
+#left a {color:#F9F9F9}
+#left a:hover {color:#D9D9D9}
+#ListPageNum {margin-left:260px}
+/* -- ListExpander -- */
+.listexpander {margin:0 0.5em; padding:0; list-style:none}
+.listexpander ul {margin:0; padding:0; list-style:none}
+.listexpander li {margin:0; padding:0; list-style:none; line-height:200%; margin-top:1px; cursor:default; text-indent:30px; font-weight:bold; width:100%; display: block}
+.listexpander li.collapsed {cursor:pointer; background-image:url(collapsed.gif); background-repeat:no-repeat; background-position:5px .4em}
+.listexpander li.expanded {cursor:pointer; background-image:url(expanded.gif); background-repeat:no-repeat; background-position:5px .4em}
+.listexpander li ul {margin-left:0px; padding-left:10px; font-weight:normal}
+.listexpander li li {font-weight:normal}
+.listexpander li li li li {text-indent:0; margin-left:30px; width:auto}
+/* buttons */
+p.listexpander {height:1.5em; margin:1em 0.5em}
+p.listexpander a {float:left; height:1.5em; line-height:1.5em; padding:0 5px; border:1px solid #eee; margin-right:5px; cursor:pointer; width:40%; text-align:center; margin-left:5px}
+/* float fix */
+.listexpander li:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+/* -- Sommaire droite -- */
+ol {list-style: upper-roman; padding: 0}
+ol ol {list-style: lower-alpha; margin-left:2em}
+ol ol ol {list-style: lower-roman; margin-left: 2.5em}
+ol ol ol ol {list-style: decimal}
+li {padding-left:0.6em}
+li li {padding-left:.4em}
+li li li {padding-left: 0}
