@@ -1,0 +1,9 @@
+#summary One-sentence summary of this page.
+
+= About KS Boolean Expression =
+KS Boolean Expression is an open software used to minimize boolean functions by a graphic method of Karnaugh maps.
+
+Useful for the developers of small digital devices as 
+for those who are familiar with Boolean algebra: electrical engineering students for example.
+
+
