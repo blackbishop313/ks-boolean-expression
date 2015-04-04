@@ -3,7 +3,7 @@
            |           KS Boolean Expression ® 1.0           |
            |               Copyright © 2012.                 |
            |         http://www.sourceforge.com/p/ksbe       |
-           |            am_hamoudi@esi.dz            |
+           |          am_hamoudi@esi.dz/ar_meradiesi.dz      |
            |_________________________________________________|
 
 
@@ -13,13 +13,18 @@ This file my contain important information relating to the use of this program. 
 ----------------------------
          CONTENTS
 ----------------------------
+
 0 ABOUT KS Boolean Expression
+
 1 SYSTEM REQUIREMENTS
+
 2 INSTALLATION
+
 3 CONTACTS
+
 4 UPDATES
+
 5 LICENSE
-----------------------------
    
 
 
