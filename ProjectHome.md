@@ -1,0 +1,1 @@
+KS Boolean Expression is an open software used to minimize boolean functions by a graphic method of Karnaugh maps.
