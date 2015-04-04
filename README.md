@@ -3,7 +3,7 @@
            |           KS Boolean Expression ® 1.0           |
            |               Copyright © 2012.                 |
            |         http://www.sourceforge.com/p/ksbe       |
-           |            ks.contibutors@gmail.com             |
+           |            am_hamoudi@esi.dz            |
            |_________________________________________________|
 
 
@@ -42,7 +42,7 @@ To install this program on your computer you have just to run the SetUp.exe file
 
 3 CONTACTS:
 **********
-If you have any problems, questions or suggestions please email to ks.contibutors@gmail.com
+If you have any problems, questions or suggestions please email to am_hamoudi@esi.dz
 
 4 UPDATES:
 *********
