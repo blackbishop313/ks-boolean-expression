@@ -11,7 +11,7 @@ Welcome to the KS Boolean Expression README file.
 This file my contain important information relating to the use of this program. Please read it attentively.
   
 ----------------------------
-         CONTENTS
+         ![#f03c15]CONTENTS
 ----------------------------
 
 0 ABOUT KS Boolean Expression
